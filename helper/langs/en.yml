@@ -1,32 +1,42 @@
-name : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 English
+name : 🇦🇿       Azərbaycan 
 
-# General Strings
-general_1 : "**🥀 𝐑𝐞𝐩𝐥𝐲 𝐓𝐨 𝐚 𝐔𝐬𝐞𝐫'𝐬 𝐌𝐞𝐬𝐬𝐚𝐠𝐞 𝐎𝐫 𝐆𝐢𝐯𝐞 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞/𝐔𝐬𝐞𝐫 𝐈𝐃 ✨ ...**"
-general_2 : "**❌ 𝐄𝐫𝐫𝐨𝐫, 𝐖𝐫𝐨𝐧𝐠 𝐔𝐬𝐚𝐠𝐞 𝐎𝐟 𝐂𝐨𝐦𝐦𝐚𝐧𝐝❗...**"
-general_3 : "**🥀 𝐒𝐨𝐦𝐞 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐎𝐜𝐜𝐮𝐫𝐞𝐝, 𝐖𝐡𝐢𝐥𝐞 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐐𝐮𝐞𝐫𝐲.\n\n❗ 𝐄𝐱𝐜𝐞𝐩𝐭𝐢𝐨𝐧 𝐓𝐲𝐩𝐞:-** `{0}`"
-general_4 : "**🤖 𝐘𝐨𝐮𝐫 𝐀𝐧 𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬 𝐀𝐝𝐦𝐢𝐧, 𝐑𝐞𝐯𝐞𝐫𝐭 𝐁𝐚𝐜𝐤 𝐓𝐨 𝐍𝐨𝐫𝐦𝐚𝐥 💞 ...**"
-general_5 : "**🥀 𝐘𝐨𝐮 𝐍𝐞𝐞𝐝 𝐕𝐂 𝐑𝐢𝐠𝐡𝐭𝐬 𝐓𝐨 𝐏𝐞𝐫𝐟𝐨𝐫𝐦 𝐓𝐡𝐢𝐬 𝐀𝐜𝐭𝐢𝐨𝐧 ✨ ..."
-general_6 : "**❌ 𝐁𝐨𝐭 𝐢𝐬 𝐍𝐨𝐭 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠\n𝐎𝐧 𝐕𝐂❗...**"
+# Ümumi sətirlər
+general_1 : "**İstifadəçinin mesajına cavab verin və istifadəçi adı/istifadəçi identifikatoru verin**"
+general_2 : "**❌ ���Səhv, səhv əmrdən istifadə olundu❗...**"
+general_3 : "**🥀 Sorğunuzu emal edərkən bəzi istisnalar baş verdi.\n\n İstisna növü:-** `{0}`"
+general_4 : "**🤖 Anonim adminsiniz, normal vəziyyətə qayıdın 💞 ...**"
+general_5 : "**🥀 Onun hərəkətini yerinə yetirmək üçün sizə vc hüququ lazımdır ✨ ..."
+general_6 : "**❌ ���Bot yayımlanmır\nVc-də❗...**"
 
-# Classes - Telegram.py
-tg_1 : "**🤖 𝐁𝐨𝐭 𝐢𝐬 𝐎𝐯𝐞𝐫𝐥𝐨𝐚𝐝𝐞𝐝 𝐖𝐢𝐭𝐡 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐬 𝐑𝐢𝐠𝐡𝐭 𝐍𝐨𝐰.\n\n𝐓𝐫𝐲 𝐀𝐟𝐭𝐞𝐫:{0} (__expected time__)**"
-tg_2 : "❌ 𝐅𝐚𝐢𝐥𝐞𝐝 𝐓𝐨 𝐃𝐨𝐞𝐧𝐥𝐨𝐚𝐝 𝐓𝐡𝐞 𝐌𝐞𝐝𝐢𝐚 𝐅𝐫𝐨𝐦 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 ✨ ..."
+# Dərslər - Telegram.py
+tg_1 : "**🤖 Bot hazırda endirmələrlə həddən artıq yüklənib.\n\nSonra cəhd edin:{0} (__gözlənilən vaxt__)**"
+tg_2 : "❌ ���Medianı telegramdan yükləmək alınmadı ✨ ..."
 
-# Core - Call.py
-call_1 : "**🥀 𝐈 𝐍𝐞𝐞𝐝 𝐀𝐝𝐦𝐢𝐧 𝐏𝐞𝐫𝐦𝐢𝐬𝐬𝐢𝐨𝐧 𝐓𝐨 𝐈𝐧𝐯𝐢𝐭𝐞 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐢𝐧 𝐘𝐨𝐮𝐫 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✨ ...**"
-call_2 : "Assistant is banned in your group or channel, please unban.\n\n**Assistant Username:** @{0}\n**Assistant ID:** {1}"
-call_3 : "Exception Occured While Inviting Assistant Account to your chat.\n\n**Reason**: {0}"
-call_4 : "Bot requires **Invite Users Via Link** Permission to invite assistant account to your chat group."
-call_5 : "Assistant Account will be joining in 5 Seconds..Please Wait!"
-call_6 : "Assistant Account[{0}] Joined Successfully.\n\nStarting Music Now"
-call_7 : "**Harmful Admin Right Given **\n\nPlease remove **BAN USERS** rights from the bot."
-call_8 : "**Harmful Admin Right Given **\n\nPlease remove **ADD NEW ADMINS** rights from the bot."
-call_9 : "**🥀 𝐒𝐤𝐢𝐩𝐩𝐢𝐧𝐠 𝐄𝐫𝐫𝐨𝐫, 𝐒𝐨 𝐏𝐥𝐞𝐚𝐬𝐞\n𝐒𝐤𝐢𝐩 𝐀𝐠𝐚𝐢𝐧 ✨ ...**"
-call_10 : "**✅ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐍𝐞𝐱𝐭 𝐒𝐨𝐧𝐠\n𝐅𝐫𝐨𝐦 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 💞 ...**"
-call_11 : "Please add @{0} to your channel[ ID: {1}].\n\nBot is not able to get channel details."
+# Əsas - Call.py
+call_1 : "**🥀 Qrupunuza köməkçi dəvət etmək üçün admin icazəsinə ehtiyacım var ✨ ...**"
+
+call_2 : "Assistent qrupunuzda və ya kanalınızda qadağan edilib, lütfən, qadağanı aradan qaldırın.\n\n Assistent İstifadəçi adı: @{0}\n**Assistent ID-si:** {1}"
+
+call_3 : "İstisna Assistent Hesabını söhbətinizə dəvət edərkən baş verdi.\n\n**Səbəb**: {0}"
+
+call_4 : "Bot köməkçi hesabını söhbət qrupuna dəvət etmək üçün Link vasitəsilə İstifadəçiləri Dəvət Etməyi tələb edir."
+
+call_5 : "Assistent Hesabı 5 Saniyəyə qoşulacaq.. Xaiş edirik, gözləyin!"
+
+call_6 : "Assistent Hesabı[{0}] Uğurla Qoşuldu.\n\nMusiqi İndi Başlayır"
+
+call_7 : "**Zərərli Admin Hüququ Verilir \n\nLütfən, BAN USERS** hüquqlarını botdan silin ."
+
+call_8 : "**Zərərli Admin Hüququ Verilir \n\nZəhmət olmasa adminlik vermə yetki** hüquqlarını botdan silin ."
+
+call_9 : "**🥀 Atlama xətası, lütfən\nyenidən keçin ✨ ...**"
+
+call_10 : "**✅ ���Növbəti mahnı endirilir\nArtıq Pleylistdədir 💞 ...**"
+
+call_11 : "Lütfən, kanalınıza @{0} əlavə edin[ ID: {1}].\n\nBot kanal təfərrüatlarını əldə edə bilmir."
 
 # PLUGINS - Auth.py
-auth_1 : "**🥀 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐎𝐧𝐥𝐲 𝐇𝐚𝐯𝐞 𝟐𝟎 𝐔𝐬𝐞𝐫𝐬\n𝐢𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐬𝐞𝐝 𝐔𝐬𝐞𝐫𝐬\n𝐋𝐢𝐬𝐭 (𝐀𝐔𝐋) ✨ ...**"
+auth_1 : "**🥀 Qrupunuzun səlahiyyətli istifadəçiləri\nsiyahısı (aul) yalnız 20 istifadəçiniz ola bilər.✨ ...**"
 auth_2 : "**✅ 𝐀𝐝𝐝𝐞𝐝 𝐓𝐨 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐬𝐞𝐝 𝐔𝐬𝐞𝐫𝐬\n𝐋𝐢𝐬𝐭 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✨ ...**"
 auth_3 : "**✅ 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐢𝐧 𝐓𝐡𝐞 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐬𝐞𝐝\n𝐔𝐬𝐞𝐫𝐬 𝐋𝐢𝐬𝐭 💞 ...**"
 auth_4 : "**✅ 𝐑𝐞𝐦𝐨𝐯𝐞𝐝 𝐅𝐫𝐨𝐦 𝐀𝐮𝐭𝐡𝐨𝐫𝐢𝐬𝐞𝐝\n𝐔𝐬𝐞𝐫𝐬 𝐋𝐢𝐬𝐭 𝐎𝐟 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ✨ ...**"
