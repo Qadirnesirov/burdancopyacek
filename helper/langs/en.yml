@@ -2,15 +2,15 @@ name : 🇦🇿       Azərbaycan
 
 # Ümumi sətirlər
 general_1 : "**İstifadəçinin mesajına cavab verin və istifadəçi adı/istifadəçi identifikatoru verin**"
-general_2 : "**❌ ���Səhv, səhv əmrdən istifadə olundu❗...**"
+general_2 : "**❌ ?Səhv, səhv əmrdən istifadə olundu❗...**"
 general_3 : "**🥀 Sorğunuzu emal edərkən bəzi istisnalar baş verdi.\n\n İstisna növü:-** `{0}`"
 general_4 : "**🤖 Anonim adminsiniz, normal vəziyyətə qayıdın 💞 ...**"
 general_5 : "**🥀 Onun hərəkətini yerinə yetirmək üçün sizə vc hüququ lazımdır ✨ ..."
-general_6 : "**❌ ���Bot yayımlanmır\nVc-də❗...**"
+general_6 : "**❌ ?Bot yayımlanmır\nVc-də❗...**"
 
 # Dərslər - Telegram.py
 tg_1 : "**🤖 Bot hazırda endirmələrlə həddən artıq yüklənib.\n\nSonra cəhd edin:{0} (__gözlənilən vaxt__)**"
-tg_2 : "❌ ���Medianı telegramdan yükləmək alınmadı ✨ ..."
+tg_2 : "❌ ?Medianı telegramdan yükləmək alınmadı ✨ ..."
 
 # Əsas - Call.py
 call_1 : "**🥀 Qrupunuza köməkçi dəvət etmək üçün admin icazəsinə ehtiyacım var ✨ ...**"
@@ -31,18 +31,18 @@ call_8 : "**Zərərli Admin Hüququ Verilir \n\nZəhmət olmasa adminlik vermə 
 
 call_9 : "**🥀 Atlama xətası, lütfən\nyenidən keçin ✨ ...**"
 
-call_10 : "**✅ ���Növbəti mahnı endirilir\nArtıq Pleylistdədir 💞 ...**"
+call_10 : "**✅ ?Növbəti mahnı endirilir\nArtıq Pleylistdədir 💞 ...**"
 
 call_11 : "Lütfən, kanalınıza @{0} əlavə edin[ ID: {1}].\n\nBot kanal təfərrüatlarını əldə edə bilmir."
 
 # PLUGINS - Auth.py
 auth_1 : "**🥀 Qrupunuzun səlahiyyətli istifadəçiləri\nsiyahısı (aul) yalnız 20 istifadəçiniz ola bilər.✨ ...**"
 
-auth_2 : "**✅ ���Səlahiyyətli istifadəçilər\n gənclər qrupunun siyahısına əlavə edildi ✨ ...**"
+auth_2 : "**✅ ?Səlahiyyətli istifadəçilər\n gənclər qrupunun siyahısına əlavə edildi ✨ ...**"
 
-auth_3 : "**✅ ���Artıq icazəli\istifadəçilər siyahısında 💞 ...**"
-auth_4 : "**✅ ���Səlahiyyətli\nQrupunuzun istifadəçilər siyahısından silindi ✨ ...**"
-auth_5 : "**❌ ���Hədəflənmiş istifadəçi \nSəlahiyyətli istifadəçi deyil❗...**"
+auth_3 : "**✅ ?Artıq icazəli\istifadəçilər siyahısında 💞 ...**"
+auth_4 : "**✅ ?Səlahiyyətli\nQrupunuzun istifadəçilər siyahısından silindi ✨ ...**"
+auth_5 : "**❌ ?Hədəflənmiş istifadəçi \nSəlahiyyətli istifadəçi deyil❗...**"
 auth_6 : "**🔃 Lütfən gözləyin, bütün icazəli istifadəçiləri çağırın ✨ ...**"
 auth_7 : "**🤖 Səlahiyyətli istifadəçilər siyahısı [aul]:**\n\n"
 auth_8 : "**┗ tərəfindən əlavə edilmişdir:-** {0}"
@@ -51,7 +51,7 @@ auth_8 : "**┗ tərəfindən əlavə edilmişdir:-** {0}"
 admin_1 : "**🔈 Artıq dayandırılıb ✨ ...**"
 admin_2 : "**▶️ Fasilə verildi 🌷 ...\n❥︎ tərəfindən tələb olunur:-** {0}"
 admin_3 : "**🔊 Artıq oxuyur ✨ ...**"
-admin_4 : "**⏸ ���Davam etdi🌷 ...\n❥︎ tərəfindən tələb olunur:-** {0}"
+admin_4 : "**⏸ ?Davam etdi🌷 ...\n❥︎ tərəfindən tələb olunur:-** {0}"
 admin_5 : "**🔇 Artıq səssizdir 🌷 ...**"
 admin_6 : "**🔇 Səssiz 🌷 ...\n❥︎ tərəfindən tələb olunur:-** {0}"
 admin_7 : "**🔊 Artıq oxuyur ✨ ...**"
