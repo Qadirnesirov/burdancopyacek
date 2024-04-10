@@ -347,4 +347,139 @@ SA_B_8 : "🤖 Bot statistikası"
 QU_B_1 : "📑 Növbəyə qoyulmuş Siyahı"
 QU_B_2 : "{1} dəqiqədən {0} oynanılıb"
 
-# Sudo İstifadəçilər
+# Sudo İstifadəçiləri [ Əgər bunu başqa dilə tərcümə edirsinizsə .. bütün bu sətirləri Azərbaycan dilində tərk edə bilərsiniz]
+
+#Sudo
+sudo_1 : "{0} artıq sudo istifadəçisidir."
+sudo_2 : "Sudo İstifadəçilərinə {0} əlavə edildi." 
+sudo_3 : "Botun Sudo-nun bir hissəsi deyil."
+sudo_4 : "Botun Sudo İstifadəçisindən silindi"
+sudo_5 : "⭐️<u> **Sahiblər:**</u>\n"
+sudo_6 : "\n⭐️<u> **Sudo İstifadəçiləri:**</u>\n"
+sudo_7 : "Sudo İstifadəçiləri yoxdur"
+
+#Block
+block_1 : "{0} artıq botdan bloklanıb."
+block_2 : "{0} botun Bloklama Siyahısına əlavə edildi. İstifadəçi indi heç bir şərt altında botdan istifadə edə bilməyəcək.\n\nBloklanmış istifadəçiləri yoxlayın: /blockedusers"
+block_3 : "İstifadəçi artıq pulsuzdur və bloklanmayıb."
+block_4 : "İstifadəçi blok siyahısından silindi. İstifadəçi indi botdan istifadə edə biləcək."
+block_5 : "Bloklanmış İstifadəçilər Tapılmadı"
+block_6 : "Bloklanmış İstifadəçilər Siyahısı əldə edilir.. Zəhmət olmasa gözləyin"
+block_7 : "**Bloklanmış İstifadəçilər:**\n\n"
+
+#Blacklist Chats
+black_1 : "**İstifadəsi:**\n/blacklistchat [CHAT_ID]"
+black_2 : "Çat artıq qara siyahıya salınıb."
+black_3 : "Çat uğurla qara siyahıya salındı"
+black_4 : "**İstifadəsi:**\n/whitelistchat [CHAT_ID]"
+black_5 : "Çat artıq ağ siyahıya salınıb."
+black_6 : "Çat uğurla ağ siyahıya salındı"
+black_7 : "**Qara siyahıya alınmış söhbətlər:**\n\n"
+black_8 : "Qara siyahıya salınmış söhbətlər yoxdur"
+
+#videolimit
+vid_1 : "**İstifadəçi:**\n/set_video_limit [İcazə verilən söhbətlərin sayı] və ya [Disable]"
+vid_2 : "Lütfən Limit Ayarlamaq üçün Rəqəmli Nömrələrdən İstifadə Edin."
+vid_3 : "Video Zənglərin Maksimum Limiti {0} Söhbət üçün müəyyən edilib."
+vid_4 : "Video Zənglər Deaktiv edilib"
+
+#maintenance
+maint_1 : "**İstifadəçi:**\n/maintenance [enable|disable]"
+maint_2 : "Baxım üçün aktivləşdirilib"
+maint_3 : "Baxım Rejimi Deaktivdir"
+
+#log
+log_1 : "**İstifadəçi:**\n/logger [enable|disable]"
+log_2 : "Qeydiyyatı aktivləşdirildi"
+log_3 : "Qeydiyyat Deaktivdir"
+
+#videomode
+vidmode_1 : "**İstifadəçi:**\n/videomode [download|m3u8]"
+vidmode_2 : "Video Oynatma Rejimi yükləyici kimi təyin edilmişdir. Bot indi trekləri endirəcək."
+vidmode_3 : "Video Oynatma Rejimi m3u8 olaraq təyin edilmişdir. Bot indi canlı trekləri çalacaq."
+
+#broadcast
+broad_1 : "**🤖 Mesajı botdan {1} pinlə {0} Chat-da yayımlayın 💞 ...**"
+broad_2 : "**😎 Köməkçi yayıma başladı ✨...**"
+broad_3 : "**🤖 Köməkçi yayım:**\n\n"
+broad_4 : "**📡 {0} köməkçisi {1} çatda yayımlandı**\n"
+broad_5 : "**🤖 İstifadəçi**:\n/broadcast [Mesaj] və ya [mesajı cavablandırmaq]"
+broad_6 : "**🤖 Zəhmət olmasa, broadcat-a bir neçə mətn təqdim edin ✨ ...**"
+broad_7 : "**🤖 {0} istifadəçiyə yayımlanan mesaj**"
+
+#Heroku
+heroku_1 : "Lütfən, Heroku API Açarınızın, Tətbiq adınızın heroku-da düzgün konfiqurasiya edildiyinə əmin olun"
+heroku_2 : "Siz yalnız Heroku Proqramlarının qeydlərini əldə edə bilərsiniz"
+heroku_3 : "**İstifadəçi:**\n/get_var [Var Name]"
+heroku_4 : "Belə bir var tapmaq mümkün deyil."
+heroku_5 : ".env faylı tapılmadı."
+heroku_6 : "**İstifadəçi:**\n/del_var [adı idi]"
+heroku_7 : "{0} Silindi."
+heroku_8 : "**İstifadəçi:**\n/set_var [adı idi] [Dəyər idi]"
+heroku_9 : "{0} uğurla yeniləndi"
+heroku_10 : "{0} uğurla əlavə edildi"
+heroku_11 : "Yalnız Heroku Proqramları üçün"
+heroku_12 : "Heroku istifadəsinin yoxlanılması. Zəhmət olmasa, gözləyin"
+heroku_13 : "Mövcud yeniləmələr yoxlanılır..."
+heroku_14 : "Git Komanda xətası"
+heroku_15 : "Etibarsız Git Repsitory"
+
+#Private bot mode
+pbot_1 : "**İstifadəçi:**\n/authorize [CHAT_ID]"
+pbot_2 :  "**İstifadəçi:**\n/unauthorize [CHAT_ID]"
+pbot_3 : "Verilmiş söhbət səlahiyyətli siyahıya əlavə edildi"
+pbot_4 : "Verilmiş söhbət səlahiyyətli siyahıdan silindi"
+pbot_5 : "Çat artıq səlahiyyətli siyahıdadır"
+pbot_6 : "Səlahiyyətli siyahıda belə söhbət yoxdur"
+pbot_7 : "chat_id-i doğrulamaq alınmadı.\n\nOnun rəqəmsal və düzgün formatda olduğuna əmin olun. Söhbət istifadəçi adı və ya keçidlərindən istifadə etməyin."
+pbot_8 : "Lütfən gözləyin.... Səlahiyyətli çatlar alınır."
+pbot_9 : "**<b>Alınmış Söhbətlər:</b>**\n\n"
+pbot_10 : "Şəxsi Çat"
+pbot_11 : "Heç bir Səlahiyyətli söhbət tapılmadı"
+pbot_12 : "Şəxsi Bot Rejimi deaktiv edilib.\n\nBotunuzu şəxsi bot kimi istifadə etmək üçün **PRIVATE_BOT_MODE** = **Doğrudur**"
+pbot_13 : "\n**<b>Alınmamış Söhbətlər:</b>**\n\n"
+
+
+#Gbanned
+gban_1 : "**😎 Özünüzü ovlamaq istəyirsiniz? Necə axmaq❗**"
+gban_2 : "**Özümü bloklamalıyam ❓lol**"
+gban_3 : "**🚩 Siz sudo istifadəçisini bloklamaq istəyirsiniz❓**"
+gban_4 : "**🤖 {0} artıq botdan kənarlaşdırılıb 💞 ...**"
+gban_5 : "**🤖 Qlobal Qadağanın {0}**\n\n**🌺 gözlənilən vaxtda tətbiq edilməsi : {1}.**"
+gban_6 : "**🤖 Gbaned uğurla tamamlandı💞 ...**\n\n**🕊️{1} Çatdan {0} qadağan edildi**"
+gban_7 : "**🤖 {0} hələ botdan kənarlaşdırılmayıb ✨ ...**"
+gban_8 : "**🤖 Qadağaların aradan qaldırılması {0}**\n\nGözlənilən vaxt : {1}."
+gban_9 : "**🤖 Qadağa uğurla silindi**\n\nQadağadan çıxarılıb **{0}** 𝐢𝐧 **{1}** Söhbətlər."
+gban_10 : "**🤖 Heç bir qadağan edilmiş istifadəçi tapılmadı ✨ ...**"
+gban_11 : "**🤖 Zəhmət olmasa, bloklanmış istifadəçilər siyahısını əldə edərkən gözləyin ✨ ...**"
+
+#Suggestions
+sug_0 : "❓**Siz bilirsiniz?**\n\n✅ "
+sug_1 : "Siz musiqini iki axtarış rejimində ifa edə bilərsiniz, məsələn, Birbaşa Rejim və Daxili Rejim.\n\nRejimləri vasitəsilə dəyişdirin /playmode"
+sug_2 : "Siz musiqini iki ifa növündə ifa edə bilərsiniz, yəni Hamı Rejimi və Adminlər Rejimi.\n\nRejimləri /playmode vasitəsilə dəyişin"
+sug_3 : "Siz kanallarda da musiqi oxuya bilərsiniz.\n\nchannel_id-i /channelplay vasitəsilə təyin edin və /cplay vasitəsilə oxuyun"
+sug_4 : "Qeyri-İdarəçilər də onları AUTH İSTİFADƏÇİ SİYAHISINA əlavə etməklə admin əmrlərindən istifadə edə bilərlər. \nİstənilən istifadəçini /auth vasitəsilə auth siyahısına əlavə edin, /unauth ilə silin və /authusers vasitəsilə auth istifadəçilərini yoxlayın"
+sug_5 : "Botun **Təmiz rejimi** adlı funksiyası var.\nO, 5 dəqiqədən sonra botun mesajlarını silir və söhbətinizin təmiz qalmasını təmin edir.\n\nTəmiz rejimi aktivləşdirin və ya deaktiv edin. /settings [__Enabled by default__]"
+sug_6 : "Siz **Spotify** treklərini və pleylistlərini də oxuya bilərsiniz.\n\nİndi ifa etməyə başlayın /play [Spotify Link]"
+sug_7 : "Siz həmçinin **Apple Music** treklərini və pleylistlərini oxuya bilərsiniz.\n\nİndi oxumağa başlayın /play [Apple Link]"
+sug_8 : "**Resso Music** treklərini və pleylistlərini də oxuya bilərsiniz.\n\nİndi ifa etməyə başlayın /play [Resso Link]"
+sug_9 : "Siz **Sound Cloud** treklərini və pleylistlərini də oxuya bilərsiniz.\n\nİndi ifa etməyə başlayın /play [SoundCloud Link]"
+sug_10 : "vasitəsilə səsli söhbətdə **Videoları** oynata bilərsiniz /vplay [Video Name] or /play -v [Video Name]"
+sug_11 : "Siz səsli söhbətin **Audio Keyfiyyətini** Aşağı, Orta və ya Yüksək olaraq təyin edə bilərsiniz.\n\nKeyfiyyəti vasitəsilə ayarlayın /settings"
+sug_12 : "Siz səsli söhbətin **Video Keyfiyyətini** Aşağı, Orta və ya Yüksək olaraq təyin edə bilərsiniz.\n\nKeyfiyyəti vasitəsilə təyin edin /settings"
+sug_13 : "Siz ən yaxşı 10 ifa edilmiş trek kimi **Statistikanı** botda yoxlaya bilərsiniz.\n\nStatistikanı əldə edin: /gstats "
+sug_14 : "Siz ən yaxşı 10 ifa edilmiş trek kimi botda **Qrupun Statistikasını** yoxlaya bilərsiniz.\n\nGet Stats: /gstats "
+sug_15 : "Siz botun **Qlobal Statistikalarını** yoxlaya bilərsiniz, məsələn, ilk 10 istifadəçi, ən yaxşı 10 söhbət, ən yaxşı 10 trek və s.\n\nStatistikanı yoxlayın.: /gstats "
+sug_16 : "İndi səsli çatda oxunan musiqinin səsini söndürə bilərsiniz.\n\nƏmr edin: /mute"
+sug_17 : "Siz indi səsli çatda oxunan musiqinin səsini söndürə və səsini söndürə bilərsiniz.\n\nƏmr edin: /mute and /unmute"
+sug_18 : "Siz də bizimlə musiqilərin sözlərini axtara bilərsiniz..\n\nCommand: /lyrics [Music Name]"
+sug_19 : "Youtube vasitəsilə musiqi və ya videonu botdan yükləyə bilərsiniz.\n\nƏmr: /song [Music Name]"
+sug_20 : "Qəbul etdiyim əmrlərimin tam siyahısını əldə edə bilərsiniz.\n\nƏmr: /help"
+sug_21 : "Botun server tərəfli pleylist seçimi var.\n\nPleylistinizə musiqi əlavə edə və hamısını birlikdə oxuya bilərsiniz./play"
+sug_22 : "İndi botda növbəyə qoyulmuş musiqiləri qarışdıra bilərsiniz.\n\nƏmr: /shuffle"
+sug_23 : "Musiqilərin növbəsini yoxlaya bilərsiniz.\n\nƏmr: /queue"
+sug_24 : "Siz mənim sahibimi və məni idarə edən sudo istifadəçilərini yoxlaya bilərsiniz.\n\nƏmr edin: /sudolist"
+sug_25 : "Botun **Əmrləri Silmə Modu** adlı funksiyası var. O, icra etdiyi əmrləri avtomatik silir.\n\nSilmə rejimini aktivləşdirin və ya söndürün/settings [__Enabled by default__]"
+sug_26 : "Asan başa düşmək üçün botun dilini mövcud dillərə dəyişə bilərsiniz.\n\nƏmr: /language"
+sug_27 : "Botun **Məcburi Oynatma** adlı funksiyası var.\n\n **Məcburi Oynatma** səsli çatda oxunan treki dayandırır və növbəni pozmadan/təmizləmədən axtarılan treki dərhal oxumağa başlayır.\n\nKomanda: /playforce"
+
