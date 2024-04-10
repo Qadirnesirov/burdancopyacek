@@ -1,79 +1,79 @@
 {
-    "name": "Romeo",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "repository": "https://github.com/RRomeo-RJ/Romeo-musicBot",
-    "logo": "https://telegra.ph/file/e745fdaf1966f228582dc.jpg",
-    "keywords": ["pyrogram", "Romeomusicbot", "pytgcall"],
+    "name": "Zatra Music",
+    "description": "Pyrogram və Py-Tgcalls ilə Python dilində yazılmış Telegram Musiqi Pleyeri Botu.",
+    "repository": "https://github.com/Qadirnesirov/ozumyaz-ram.git",
+    "logo": "https://telegra.ph/file/70076e5d0cd90d64c71c0.jpg",
+    "keywords": ["pyrogram", "ZatraMusicBot", "pytgcall"],
     "stack": "container",
     "env": {
       "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Bu dəyəri əldə edin https://my.telegram.org",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
+        "description": "Bu dəyəri əldə edin https://my.telegram.org",
         "value": "",
         "required": true
       },
       "BOT_TOKEN": {
-        "description": "Put Your Bot token from Botfather",
+        "description": "Botfather-dən Bot nişanınızı qoyun",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com. Below MONGOdb only for Test Don't Use Otherwise Your Bot Hack By Any Hacker",
+        "description": "https://cloud.mongodb.com saytından mongodb url əldə edin. MONGOdb-dən aşağıda yalnız Test üçün istifadə etməyin",
         "value": "",
         "required": true
       },
       "MUSIC_BOT_NAME": {
-        "description": "A name for your Music Bot. You can use special characters",
+        "description": "Musiqi Botunuz üçün ad. Xüsusi simvollardan istifadə edə bilərsiniz",
         "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "Your Heroku account's API key",
+        "description": "Heroku hesabınızın API açarı",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "Your heroku app/bot's name",
+        "description": "Heroku tətbiqinizin/botunuzun adı",
         "value": "",
         "required": false
       },
       "SPOTIFY_CLIENT_ID": {
-        "description": "Spotify Client Id",
+        "description": "Spotify Müştəri Id / öz idnizdə qeyd edə bilərsiz",
         "value": "",
         "required": false
       },
       "SPOTIFY_CLIENT_SECRET": {
-        "description": "Spotify client secret",
+        "description": "Spotify müştəri sirri / boşda qala biler yada ki "" silerek none yazın ,
         "value": "",
         "required": false
       },
       "OWNER_ID": {
-        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "description": "SAHİB kimi əlavə etmək istədiyiniz istifadəçi(lər)in istifadəçi id(ləri). Çoxsaylı dəyərlər boşluqla ayrılmalıdır.",
         "value": "",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "description": "Piroqram simli seansı. Bir Assistent Məcburidir.- @otosessionbot burdan ala bilərsiz",
         "value": "",
         "required": true
       },
       "LOG_GROUP_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights !",
+        "description": "Log Group ID-niz, botunuzu əlavə edin və tam hüquqlara malik admin kimi təbliğ edin !",
         "value": "",
         "required": true
       },
       "SUPPORT_GROUP": {
-        "description": "Fill the link of your group..",
-        "value": "https://t.me/RomeoBot_OP",
+        "description": "Qrupunuzun linkini doldurun..",
+        "value": "https://t.me/otobotsport",
         "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "Fill the link of channel.",
-        "value": "https://t.me/Romeo_OP",
+        "value": "https://t.me/otobotblog",
         "required": false
       }
 
