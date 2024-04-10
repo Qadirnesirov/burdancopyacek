@@ -13,35 +13,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="RomeoMusic1",
+            name="ZatraMusic1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="RomeoMusic2",
+            name="ZatraMusic2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="RomeoMusic3",
+            name="ZatraMusic3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="RomeoMusic4",
+            name="ZatraMusic4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="RomeoMusic5",
+            name="ZatraMusic5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -53,8 +53,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("RomeoBot_op")
-                await self.one.join_chat("Romeo_op")
+                await self.one.join_chat("zatrasport")
+                await self.one.join_chat("zatrasport")
             except:
                 pass
             assistants.append(1)
@@ -70,22 +70,22 @@ class Userbot(Client):
             else:
                 self.one.name = get_me.first_name
             LOGGER(__name__).info(
-                f"𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.one.name}"
+                f"Assistent olaraq başladı {self.one.name}"
             )
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, f"Assistant Started"
+                    config.LOG_GROUP_ID, f"Assistent başladı"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
+                    f"Assistent Hesabı 1 log Qrupuna daxil ola bilmədi. Köməkçinizi log qrupunuza əlavə etdiyinizə və admin kimi yüksəldiyinizə əmin olun! "
                 )
                 sys.exit()
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("RomeoBot_op")
-                await self.two.join_chat("Romeo_op")
+                await self.two.join_chat("zatrasport")
+                await self.two.join_chat("zatrasport")
             except:
                 pass
             assistants.append(2)
@@ -102,21 +102,21 @@ class Userbot(Client):
                 self.two.name = get_me.first_name
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐰𝐨 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.two.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.two.name}\n💫 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : @{self.two.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} İkinci köməkçi başladı :**\n\n✨ id : `{self.two.id}`\n❄ Name : {self.two.name}\n💫 Username : @{self.two.username}"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
+                    f"Assistent Hesabı 2 log Qrupuna daxil ola bilmədi. Köməkçinizi log qrupunuza əlavə etdiyinizə və admin kimi yüksəldiyinizə əmin olun! "
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐰𝐨 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.two.name}"
+                f"İkinci köməkçi olaraq başladı {self.two.name}"
             )
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("RomeoBot_op")
-                await self.three.join_chat("Romeo_op")
+                await self.three.join_chat("zatrasport")
+                await self.three.join_chat("zatrasport")
             except:
                 pass
             assistants.append(3)
@@ -133,21 +133,21 @@ class Userbot(Client):
                 self.three.name = get_me.first_name
             try:
                 await self.three.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐡𝐫𝐞𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.three.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.three.name}\n💫 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : @{self.three.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} Üçüncü köməkçi başladı :**\n\n✨ id : `{self.three.id}`\n❄ Name  : {self.three.name}\n💫 Username : @{self.three.username}"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
+                    f"Assistent Hesabı 3 log Qrupuna daxil ola bilmədi. Köməkçini günlük qrupunuza əlavə etdiyinizə və admin kimi yüksəldiyinizə əmin olun! "
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐓𝐡𝐫𝐞𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.three.name}"
+                f"Üç köməkçisi olaraq başladı {self.three.name}"
             )
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("RomeoBot_op")
-                await self.four.join_chat("Romeo_op")
+                await self.four.join_chat("zatrasport")
+                await self.four.join_chat("zatrasport")
             except:
                 pass
             assistants.append(4)
@@ -164,21 +164,21 @@ class Userbot(Client):
                 self.four.name = get_me.first_name
             try:
                 await self.four.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐅𝐨𝐮𝐫 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.four.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.four.name}\n💫 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : @{self.four.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} Dördüncü köməkçi başladı :**\n\n✨ id : `{self.four.id}`\n❄ Name : {self.four.name}\n💫 Username : @{self.four.username}"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
+                    f"Assistent Hesabı 4 log Qrupuna daxil ola bilmədi. Köməkçinizi log qrupunuza əlavə etdiyinizə və admin kimi yüksəldiyinizə əmin olun! "
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐅𝐨𝐮𝐫 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.four.name}"
+                f"Dörd köməkçisi olaraq başladı {self.four.name}"
             )
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("RomeoBot_op")
-                await self.five.join_chat("Romeo_op")
+                await self.five.join_chat("zatrasport")
+                await self.five.join_chat("zatrasport")
             except:
                 pass
             assistants.append(5)
@@ -195,13 +195,13 @@ class Userbot(Client):
                 self.five.name = get_me.first_name
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐅𝐢𝐯𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 :**\n\n✨ 𝐈𝐝 : `{self.five.id}`\n❄ 𝐍𝐚𝐦𝐞 : {self.five.name}\n💫 𝐔𝐬𝐞𝐫𝐍𝐚𝐦𝐞 : @{self.five.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} Beşinci köməkçi başladı :**\n\n✨ id : `{self.five.id}`\n❄ Name: {self.five.name}\n💫 username : @{self.five.username}"
                 )
             except:
                 LOGGER(__name__).error(
-                    f"Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
+                    f"Assistent Hesabı 5 log Qrupuna daxil ola bilmədi. Köməkçinizi log qrupunuza əlavə etdiyinizə və admin kimi yüksəldiyinizə əmin olun!"
                 )
                 sys.exit()
             LOGGER(__name__).info(
-                f"𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐅𝐢𝐯𝐞 𝐒𝐭𝐚𝐫𝐭𝐞𝐝 𝐀𝐬 {self.five.name}"
+                f"Köməkçi beş olaraq başladı {self.five.name}"
             )
