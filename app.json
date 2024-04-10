@@ -47,7 +47,7 @@
         "required": false
       },
       "SPOTIFY_CLIENT_SECRET": {
-        "description": "Spotify müştəri sirri / boşda qala biler yada ki "" silerek none yazın ,
+        "description": "Spotify müştəri sirri / boşda qala biler ",
         "value": "",
         "required": false
       },
