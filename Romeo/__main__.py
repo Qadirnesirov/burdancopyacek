@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from Romeo import LOGGER, app, userbot
-from Romeo.core.call import rj
-from Romeo.misc import sudo
-from Romeo.plugins import ALL_MODULES
-from Romeo.utils.database import get_banned_users, get_gbanned
+from Zatra import LOGGER, app, userbot
+from Zatra.core.call import rj
+from Zatra.misc import sudo
+from Zatra.plugins import ALL_MODULES
+from Zatra.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,18 +35,18 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("Romeo.plugins" + all_module)
-    LOGGER("plugins").info("Successfully Imported Modules...")
+        importlib.import_module("Zatra.plugins" + all_module)
+    LOGGER("plugins").info("Uğurla Import edilmiş Modullar...")
     await userbot.start()
     await rj.start()
     await rj.decorators()
-    LOGGER("Romeo").info(
-        "bot started"
+    LOGGER("Zatra").info(
+        "bot başladı"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Romeo").info("Stopping Music Bot...")
+    LOGGER("Zatra").info("Musiqi Botunun dayandırılması...")
 
 
 if __name__ == "__main__":
