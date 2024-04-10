@@ -10,13 +10,13 @@
 - Yerləşdirmə üçün aşağıda ☟︎︎︎☟︎︎︎☟︎︎︎ düyməsinə toxununor deploy ZatraMusicBot 
 
 ### 🚀 Deploy to heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Qadirnesirov/ozumyaz-ram.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Qadirnesirov/burdancopyacek.git)
 
 
 
 ### 🥀 Github serverində yerləşdirin (hacker-zatra) 💞...
 
-[𓊈Github-da yerləşdirin𓊉](https://github.com/Qadirnesirov/ozumyaz-ram.git)
+[𓊈Github-da yerləşdirin𓊉](https://github.com/Qadirnesirov/burdancopyacek.git)
 
 
 
