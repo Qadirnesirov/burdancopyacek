@@ -72,4 +72,5 @@ def git():
         except GitCommandError:
             repo.git.reset("--hard", "FETCH_HEAD")
         install_req("pip3 install -r requirements.txt")
-        LOGGER(__name__).info(f"Fetching updates from Repo ...")
+        LOGGER(__name__).info(f"Repo-dan yeniləmələr alınır...")
+          
