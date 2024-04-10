@@ -15,7 +15,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Romeo-musicBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ZatraMusicBot")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -69,20 +69,20 @@ clean = {}
 autoclean = []
 ############################
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/e745fdaf1966f228582dc.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/e745fdaf1966f228582dc.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/439bf413979b2f1e3f441.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/439bf413979b2f1e3f441.jpg")
 
-PLAYLIST_IMG_URL = "https://telegra.ph//file/48b76e483720f1c949992.jpg"
-GLOBAL_IMG_URL = "https://telegra.ph//file/54a0cc0a38e242df6312f.jpg"
-STATS_IMG_URL = "https://telegra.ph//file/6cfd7340e36d061fefd17.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph//file/aaa234fa0f64fb61bc77d.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph//file/55d053f98972397ed2545.jpg"
-STREAM_IMG_URL = "https://telegra.ph//file/26488a81d1dac3a74b1fe.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph//file/45aa319424afac672cc4f.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph//file/fa1867b8d0067db7e3132.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph//file/d4a38d19f5472aba24324.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph//file/dc12b72d9a0797d2de327.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph//file/5706bbc7df4c5ab589220.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
 
 
 def time_to_seconds(time):
@@ -108,9 +108,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/e745fdaf1966f228582dc.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "resources/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/e745fdaf1966f228582dc.jpg"
+            START_IMG_URL = "https://telegra.ph/file/439bf413979b2f1e3f441.jpg"
